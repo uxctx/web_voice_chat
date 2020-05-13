@@ -1,0 +1,20 @@
+.DS_Store
+node_modules/
+dist/
+
+
+CMakeFiles/
+.vscode/
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+
+
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+*.o
+*.a

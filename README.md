@@ -4,7 +4,7 @@
 
 在浏览器端低延迟语音通讯的尝试。
 
-![img](./cp.png)
+![img](https://github.com/uxctx/web_voice_chat/blob/master/cp.png)
 
 #### 技术栈
 

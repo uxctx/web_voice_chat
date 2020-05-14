@@ -4,6 +4,14 @@
 
 在浏览器端低延迟语音通讯的尝试。
 
+```
+ microphone pcm->wasm silk encode->buffer> --------websocket-------->                      
+                                                                                                                                                  |
+                                                                                                                                              server
+                                                                                                                                                   |
+                  play pcm<-wasm silk decode<-buffer <--------websocket--------- <
+
+```
 ![img](https://github.com/uxctx/web_voice_chat/blob/master/cp.png)
 
 #### 技术栈

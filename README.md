@@ -143,14 +143,6 @@ https://emscripten.org/
 
 
 
-#### 为什么不中意webrtc？
-
-首先webrtc的代码真的很强，集齐了N多音视频通讯相关的技术。
-
-但webrtc的设计概念稍微复杂，很少有性能比较强支持完善的开源webrtc服务器。`要在webrtc上做优秀和更灵活接口的产品，很难`。
-
-zoom是全球出名的视频会议产品，它在web端就没有用webrtc，而是wasm+websocket，虽然效果不理想，占用cpu很高，但至少说明了，wasm也是可以一定程度上做webrtc的部分事情。
-
 
 
 

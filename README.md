@@ -2,14 +2,12 @@
 
 >浏览器低延迟语音通讯
 
-在浏览器端低延迟语音通讯的尝试。
+在浏览器端使用wasm编解码低延迟语音通讯的尝试。
 
 ```
- microphone pcm->wasm silk encode->buffer> --------websocket-------->                      
-                                                                                                                                                  |
-                                                                                                                                              server
-                                                                                                                                                   |
-                  play pcm<-wasm silk decode<-buffer <--------websocket--------- <
+ microphone pcm->wasm silk encode->buffer> --------websocket--------> server                     
+                                                                                                                                         
+ play pcm<-wasm silk decode<-buffer <--------websocket--------- <server
 
 ```
 ![img](https://github.com/uxctx/web_voice_chat/blob/master/cp.png)
